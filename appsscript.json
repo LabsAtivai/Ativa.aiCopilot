@@ -1,0 +1,27 @@
+{
+    "timeZone": "America/Sao_Paulo",
+    "dependencies": {},
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/script.external_request",
+      "https://www.googleapis.com/auth/gmail.addons.execute"
+    ],
+    "runtimeVersion": "V8",
+    "gmail": {
+      "name": "Ativa.ai Copilot for Gmail",
+      "contextualTriggers": [{
+        "unconditional": {
+        },
+        "onTriggerFunction": "buildAddOn"
+      }],
+      "primaryColor": "#4285F4",
+      "secondaryColor": "#D93025",
+      "logoUrl": "file:///C:/Users/HP/Downloads/AtivaLive4/img/64.png",
+      "universalActions": [{
+        "text": "Ação Universal",
+        "openLink": "https://www.ativa.ai/"
+      }]
+    }
+  }
+  
